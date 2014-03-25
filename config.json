@@ -1,0 +1,14 @@
+{
+	"db": {
+		"port": 27017,
+		"host": "localhost",
+		"username":"admin",
+		"password":"4dm1n3",
+		"name" : "app-test"
+	},
+	"collections":{
+	
+		"users": "user"
+	
+	}
+}
