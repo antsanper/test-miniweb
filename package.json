@@ -1,0 +1,16 @@
+{
+  "name": "test-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+	"bcrypt-nodejs": "~0.0.3",
+    "mongodb":"*",
+	"node-freegeoip":"*",
+	"consolidate":"*",
+	"swig":"*"
+  }
+}

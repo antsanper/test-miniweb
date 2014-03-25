@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <!-- Bootstrap core CSS -->
+    <link href="../style/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="../style/css/bootstrap-theme.min.css" rel="stylesheet">
+
+<meta name="layout" content="main" />
+<title> TEST </title>
+</head>
+<body>
+   <!-- Example row of columns -->
+
+		<div class="container">
+            <div class="page-header">
+				<h1>Test - Berlin <small>Logged</small></h1>
+			</div>
+
+			<div class="row">
+				<div class="span4"  style =" text-align:center ">
+					
+					<div class="jumbotron">
+						<h1>Hello, {{email}}!</h1>
+						<p>Country Code: {{country}}</p>
+						<p>[lng,lat]: [{{lon}},{{lat}}]</p>
+						<p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+					</div>
+			
+				</div>
+			</div>
+			<span class="label label-danger">{{error}}</span>
+        </div>
+   
+		
+</body>
+</html>
